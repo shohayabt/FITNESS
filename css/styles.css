@@ -22,9 +22,11 @@ header {
     padding: 0px 10%;
     background: linear-gradient(180deg, #111111 0%, #323232 50%, #111111 100%);
 }
-section{
+
+section {
     padding: 45px 10%;
 }
+
 ul,
 ol {
     list-style: none;
@@ -44,6 +46,10 @@ p {
     margin: 10px 0px;
 }
 
+h2 {
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+}
 
 .btn_primary,
 .btn_secondary {
@@ -198,33 +204,34 @@ nav {
 
 /* THE STYLE OF HEADING SECTION END HERE */
 /* THE STYLE OF 2ND SECTION START FROM HERE */
-.habit_section{
+.habit_section {
     display: flex;
     justify-content: baseline;
     align-items: center;
     flex-direction: column;
 }
-.section_information{
+
+.section_information {
     text-align: center;
     width: 70%;
 }
-.section_information h2{
-    font-size: 48px;
-}
-.habits_card_container{
+
+.habits_card_container {
     display: grid;
-    grid-template-columns:repeat(4,1fr) ;
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 10px;
     padding-top: 40px;
 }
-.havits_card{
+
+.havits_card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
 }
-.havits_card_image img{
+
+.havits_card_image img {
     border-radius: 100%;
     border: 4px solid rgba(255, 255, 255, 0.1);
     width: 180px;
@@ -232,13 +239,33 @@ nav {
     object-fit: cover;
     margin-bottom: 10px;
 }
-.habits_card_title{
+
+.habits_card_title {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 600;
     margin: 5px 0px;
 }
-.havits_card p{
+
+.havits_card p {
     font-size: 14px;
 }
+
 /* THE STYLE OF 2ND SECTION END HERE */
+/* THE CSS OF RUN SECTION START FORM HERE */
+.run_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    background: #222222;
+    border-radius: 18px;
+    padding: 40px;
+}
+.run_image{
+    background: url(../src/images/run.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+/* THE CSS OF RUN SECTION END HERE */
