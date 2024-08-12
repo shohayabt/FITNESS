@@ -22,7 +22,9 @@ header {
     padding: 0px 10%;
     background: linear-gradient(180deg, #111111 0%, #323232 50%, #111111 100%);
 }
-
+section{
+    padding: 45px 10%;
+}
 ul,
 ol {
     list-style: none;
@@ -140,18 +142,12 @@ nav {
     background: url(../src/images/Images\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    height: 580px;
+    height: 550px;
     position: relative;
 }
 
-/* .right >img{
-    width: 349px;
-    height: 580px;
-} */
 .one {
-    /* top: 18.43rem;
-    left: 6.875rem; */
-    top: 28.43rem;
+    top: 25.43rem;
     left: 0.875rem;
 }
 
@@ -188,7 +184,6 @@ nav {
 .one .rounded {
     width: 40px;
     height: 40px;
-    border-radius: 100%;
     background: var(--primary_color);
 }
 
@@ -202,3 +197,48 @@ nav {
 }
 
 /* THE STYLE OF HEADING SECTION END HERE */
+/* THE STYLE OF 2ND SECTION START FROM HERE */
+.habit_section{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+.section_information{
+    text-align: center;
+    width: 70%;
+}
+.section_information h2{
+    font-size: 48px;
+}
+.habits_card_container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-column-gap: 10px;
+    padding-top: 40px;
+}
+.havits_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.havits_card_image img{
+    border-radius: 100%;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.habits_card_title{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+.havits_card p{
+    font-size: 14px;
+}
+/* THE STYLE OF 2ND SECTION END HERE */
