@@ -1,0 +1,19 @@
+@media  screen and (max-width:1024px) {
+    .hero_section{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        padding: 40px 0px;
+    }
+    .right {
+        background-position: center;
+    }
+    .one {
+        top: 25.43rem;
+        left: 5.0rem;
+    }
+    .two {
+        top: 170px;
+        right: 100px;
+    }
+}

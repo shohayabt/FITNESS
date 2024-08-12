@@ -14,13 +14,12 @@ html {
 }
 
 body {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 header {
     padding: 0px 10%;
-    height: 100vh;
     background: linear-gradient(180deg, #111111 0%, #323232 50%, #111111 100%);
 }
 
@@ -112,7 +111,6 @@ nav {
 .hero_section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 60px;
 }
 
 .left {
@@ -142,13 +140,19 @@ nav {
     background: url(../src/images/Images\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 250px;
+    height: 580px;
     position: relative;
 }
 
+/* .right >img{
+    width: 349px;
+    height: 580px;
+} */
 .one {
-    top: 18.43rem;
-    left: 6.875rem;
+    /* top: 18.43rem;
+    left: 6.875rem; */
+    top: 28.43rem;
+    left: 0.875rem;
 }
 
 .one,
@@ -166,16 +170,21 @@ nav {
     backdrop-filter: blur(20px);
 
 }
-.one p, .two p{
+
+.one p,
+.two p {
     font-size: 16px;
 }
-.one h6, .two h6 {
+
+.one h6,
+.two h6 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 0.3px;
 }
+
 .one .rounded {
     width: 40px;
     height: 40px;
@@ -183,12 +192,13 @@ nav {
     background: var(--primary_color);
 }
 
-.two{
+.two {
     flex-direction: column;
     align-items: baseline;
     justify-content: center;
-    top: 100px;
-    right: -85px;
+    top: 180px;
+    right: -50px;
     padding: 10px;
 }
+
 /* THE STYLE OF HEADING SECTION END HERE */
