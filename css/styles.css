@@ -283,9 +283,11 @@ nav {
     justify-content: center;
     flex-direction: column;
 }
-.traing_information{
+
+.traing_information {
     padding-bottom: 40px;
 }
+
 .taring_grid_layout {
     padding-top: 40px;
     display: grid;
@@ -367,6 +369,16 @@ nav {
     bottom: 0;
     right: 0;
     z-index: -1;
+}
+
+.card_info {
+    position: absolute;
+    max-width: 176px;
+    height: 34px;
+    top: 146px;
+    left: 27px;
+    overflow-x: hidden;
+    text-wrap: wrap;
 }
 
 /* THE STYLE OF TRAING SECTION END HERE */
