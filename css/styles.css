@@ -51,6 +51,13 @@ h2 {
     font-family: "Inter", sans-serif;
 }
 
+.flex_col {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+}
+
 .btn_primary,
 .btn_secondary {
     display: inline-block;
@@ -261,7 +268,8 @@ nav {
     border-radius: 18px;
     padding: 40px;
 }
-.run_image{
+
+.run_image {
     background: url(../src/images/run.jpg);
     background-position: center;
     background-size: cover;
@@ -269,3 +277,96 @@ nav {
 }
 
 /* THE CSS OF RUN SECTION END HERE */
+/* THE STYLE OF TRAINING SECTION START FROM HERE */
+.training_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.traing_information{
+    padding-bottom: 40px;
+}
+.taring_grid_layout {
+    padding-top: 40px;
+    display: grid;
+    grid-template-areas:
+        "one  one  one two two two two two two three three three"
+        "four four four four four five five five six six six six";
+}
+
+._one {
+    grid-area: one;
+    background: url("../src/images/exercise1.jpg");
+}
+
+._one::after {
+    background: #06FFD280;
+}
+
+._two {
+    grid-area: two;
+    background: url("../src/images/exercise2.png");
+}
+
+._two::after {
+    background: #FF00004D;
+}
+
+._three {
+    grid-area: three;
+    background: url("../src/images/exercise3.png");
+}
+
+._three::after {
+    background: #00000080;
+}
+
+._four {
+    grid-area: four;
+    background: url("../src/images/exercise4.png");
+}
+
+._four::after {
+    background: #00000080;
+
+}
+
+._five {
+    grid-area: five;
+    background: url("../src/images/exercise5.jpg");
+}
+
+._five::after {
+    background: #42FF004D;
+}
+
+._six {
+    grid-area: six;
+    background: url("../src/images/exercise6.jpg");
+}
+
+._six::after {
+    background: #0047FF4D;
+
+}
+
+.grid_card {
+    height: 201px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.grid_card::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* THE STYLE OF TRAING SECTION END HERE */
