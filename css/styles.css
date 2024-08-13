@@ -49,6 +49,14 @@ p {
 h2 {
     font-size: 48px;
     font-family: "Inter", sans-serif;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    padding: 40px 0px;
 }
 
 .flex_col {
@@ -211,14 +219,16 @@ nav {
 
 /* THE STYLE OF HEADING SECTION END HERE */
 /* THE STYLE OF 2ND SECTION START FROM HERE */
-.habit_section {
+.habit_section,
+.team_section {
     display: flex;
     justify-content: baseline;
     align-items: center;
     flex-direction: column;
 }
 
-.section_information {
+.section_information,
+.info {
     text-align: center;
     width: 70%;
 }
@@ -382,3 +392,81 @@ nav {
 }
 
 /* THE STYLE OF TRAING SECTION END HERE */
+/* THE STYLE OF BMI CALCULATOR SECTION START FROM HERE */
+.bmi_calculator{
+    padding-top: 0px;
+    background: #222222;
+    ;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ffffff80;
+  }
+th,td{
+    padding: 10px 5px;
+}
+table th {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+table td {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #ffffff80;
+}
+
+/* THE STYLE  OF BMI CALCULATOR SECTION END HERE */
+/* THE STYLE OF TEAM SECTION START FROM HERE */
+.team_card_container {
+    display: grid;
+    grid-template-columns: repeat(3, 326px);
+    grid-template-rows: repeat(2, 272px);
+    grid-gap: 20px;
+    padding: 20px;
+    background: #222222;
+    border-radius: 18px;
+    margin-top: 40px;
+}
+
+.team_one {
+    background: url("../src/images/trainer1.png");
+}
+
+.team_two {
+    background: url("../src/images/trainer2.png");
+}
+
+.team_three {
+    background: url("../src/images/trainer3.png");
+}
+
+.team_four {
+    background: url("../src/images/trainer4.png");
+}
+
+.team_five {
+    background: url("../src/images/trainer5.png");
+}
+
+.team_six {
+    background: url("../src/images/trainer6.png");
+
+}
+
+.team_card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+
+/* THE STYLE OF TEAM SECTON END HERE */

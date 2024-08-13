@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     .hero_section {
         grid-template-columns: 1fr;
     }
@@ -33,6 +33,10 @@
     }
     .run_section {
         grid-column-gap: 40px;
+    }
+    .team_card_container {
+        grid-template-columns: repeat(2, 326px);
+        grid-template-rows: repeat(3, 272px);
     }
 }
 
