@@ -498,14 +498,9 @@ select option {
 .name {
     padding: 10px;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 2%;
     transform: translateY(-50%);
-    border-radius: 12px;
-    border: 1px solid #FFFFFF1A;
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px);
 }
 
 .name p {
@@ -516,12 +511,6 @@ select option {
     margin: 0px;
 
 }
-
-.name p,
-.name h4 {
-    color: black;
-}
-
 .name h4 {
     font-family: Inter;
     font-size: 20px;
