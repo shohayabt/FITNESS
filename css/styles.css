@@ -393,22 +393,32 @@ nav {
 
 /* THE STYLE OF TRAING SECTION END HERE */
 /* THE STYLE OF BMI CALCULATOR SECTION START FROM HERE */
-.bmi_calculator{
+.bmi_calculator {
     padding-top: 0px;
     background: #222222;
-    ;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.bmi_calculator p{
+    margin-top: 0px;
 }
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #ffffff80;
-  }
-th,td{
-    padding: 10px 5px;
 }
+
+th,
+td {
+    padding: 12px 5px;
+}
+
 table th {
     font-family: Inter;
     font-size: 16px;
@@ -424,6 +434,31 @@ table td {
     color: #ffffff80;
 }
 
+.chart {
+    width: 45%;
+}
+
+.calculator {
+    width: 50%;
+}
+.group_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.calculator_form input,select,select option{
+    background: #FFFFFF1A;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    outline: 0px;
+    border:0px;
+    width: 48%;
+    margin-bottom: 20px;
+    color: #ffffff80;
+}
+#factor, #factor option{
+    width: 100%;
+}
 /* THE STYLE  OF BMI CALCULATOR SECTION END HERE */
 /* THE STYLE OF TEAM SECTION START FROM HERE */
 .team_card_container {
