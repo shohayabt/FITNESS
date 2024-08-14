@@ -400,9 +400,11 @@ nav {
     justify-content: space-between;
     align-self: center;
 }
-.bmi_calculator p{
+
+.bmi_calculator p {
     margin-top: 0px;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -441,30 +443,37 @@ table td {
 .calculator {
     width: 50%;
 }
-.group_input{
+
+.group_input {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.calculator_form input,select,select option{
+
+.calculator_form input,
+select,
+select option {
     background: #FFFFFF1A;
     padding: 12px 40px 12px 20px;
     border-radius: 8px;
     outline: 0px;
-    border:0px;
+    border: 0px;
     width: 48%;
     margin-bottom: 20px;
     color: #ffffff80;
 }
-#factor, #factor option{
+
+#factor,
+#factor option {
     width: 100%;
 }
+
 /* THE STYLE  OF BMI CALCULATOR SECTION END HERE */
 /* THE STYLE OF TEAM SECTION START FROM HERE */
 .team_card_container {
     display: grid;
-    grid-template-columns: repeat(3, 326px);
-    grid-template-rows: repeat(2, 272px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
     background: #222222;
@@ -472,36 +481,46 @@ table td {
     margin-top: 40px;
 }
 
-.team_one {
-    background: url("../src/images/trainer1.png");
-}
-
-.team_two {
-    background: url("../src/images/trainer2.png");
-}
-
-.team_three {
-    background: url("../src/images/trainer3.png");
-}
-
-.team_four {
-    background: url("../src/images/trainer4.png");
-}
-
-.team_five {
-    background: url("../src/images/trainer5.png");
-}
-
-.team_six {
-    background: url("../src/images/trainer6.png");
-
-}
-
 .team_card {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 272px;
     border-radius: 18px;
+    overflow: hidden;
+    position: relative;
 }
 
+.team_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    transform: translateY(-50%);
+    border-radius: 12px;
+    border: 1px solid #FFFFFF1A;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+}
+
+.name p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0px;
+
+}
+.name p ,.name h4{
+    color: black;
+}
+.name h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+}
 /* THE STYLE OF TEAM SECTON END HERE */
