@@ -23,7 +23,8 @@ header {
     background: linear-gradient(180deg, #111111 0%, #323232 50%, #111111 100%);
 }
 
-section {
+section,
+footer {
     padding: 45px 10%;
 }
 
@@ -515,12 +516,56 @@ select option {
     margin: 0px;
 
 }
-.name p ,.name h4{
+
+.name p,
+.name h4 {
     color: black;
 }
+
 .name h4 {
     font-family: Inter;
     font-size: 20px;
     font-weight: 900;
 }
+
 /* THE STYLE OF TEAM SECTON END HERE */
+/* THE STYLE OF FOOTER SECTION START FORM HERE */
+footer {
+    background: #222222;
+    padding-bottom: 8px;
+}
+
+.footer_section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-bottom: 45px;
+}
+
+footer h5 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.2px;
+}
+
+footer ul li {
+    margin: 10px 0px;
+}
+
+footer a {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.6px;
+    color: #FFFFFF80;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background: #FFFFFF1A;
+}
+footer .copy{
+    text-align: center;
+}
+/* THE STYLE OF FOOTER SECTION END HERE */
