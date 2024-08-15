@@ -65,8 +65,7 @@ h3 {
     justify-content: baseline;
     align-items: baseline;
     flex-direction: column;
-}
-
+}s
 .btn_primary,
 .btn_secondary {
     display: inline-block;
@@ -86,7 +85,12 @@ h3 {
     background: var(--primary_color);
     border: 2px solid var(--primary_color);
 }
-
+.menu_bar{
+    display: none;
+}
+.menu_bar img{
+    width: 100%;
+}
 :root {
     --primary_color: #e6533c;
 }
@@ -263,6 +267,7 @@ nav {
     font-size: 18px;
     font-weight: 600;
     margin: 5px 0px;
+    padding: 0px;
 }
 
 .havits_card p {
@@ -398,7 +403,7 @@ nav {
     padding-top: 0px;
     background: #222222;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 40px;
 }
 
@@ -503,6 +508,7 @@ select option {
     margin: 0px;
 
 }
+
 .name h4 {
     font-family: Inter;
     font-size: 20px;
@@ -546,7 +552,9 @@ hr {
     height: 2px;
     background: #FFFFFF1A;
 }
-footer .copy{
+
+footer .copy {
     text-align: center;
 }
+
 /* THE STYLE OF FOOTER SECTION END HERE */
