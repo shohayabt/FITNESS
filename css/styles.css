@@ -526,6 +526,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     padding-bottom: 45px;
+    grid-column-gap: 20px;
 }
 
 footer h5 {
